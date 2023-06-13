@@ -25,7 +25,7 @@ services:
     build:
       context: frontend
       args:
-        - BACKEND_HOST=localhost
+        - BACKEND_HOST=13.82.85.248
         - BACKEND_PORT=8080
     container_name: vax-warden-frontend
     ports:

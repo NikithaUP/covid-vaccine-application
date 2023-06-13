@@ -5,7 +5,7 @@ num_args=$#
 mkcert -install
 mkdir ./frontend/.cert
 # generate frontend certificate
-mkcert -key-file ./frontend/.cert/key.pem -cert-file ./frontend/.cert/cert.pem "localhost"
+mkcert -key-file ./frontend/.cert/key.pem -cert-file ./frontend/.cert/cert.pem "13.82.85.248"
 # generate backend p12 certificate from frontend certificate
 openssl pkcs12 -inkey ./frontend/.cert/key.pem -in ./frontend/.cert/cert.pem -export -passout pass:vax-warden -out ./backend/src/main/resources/cert.pfx
 

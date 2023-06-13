@@ -1,4 +1,4 @@
-POST https://localhost:8080/forum/post
+POST https://13.82.85.248:8080/forum/post
 Content-Type: application/json
 
 {

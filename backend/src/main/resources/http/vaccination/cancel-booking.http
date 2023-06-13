@@ -1,1 +1,1 @@
-POST https://localhost:8080/vaccination/cancel
+POST https://13.82.85.248:8080/vaccination/cancel
